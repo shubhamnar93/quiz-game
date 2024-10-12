@@ -1,6 +1,4 @@
 import html
-from logging import fatal
-
 
 class QuizBrain:
 
