@@ -6,4 +6,6 @@ This code is of true false quiz game where quetions is generated with the help o
 
 3. `question_bank.py`: helps the main.py to get the data in question_bank
 
-4. `
+4. `quizz_brain.py`: it coantains `still_has_question` method when there is question left it returs ture else it returns false, `next_question` method it returns next question whenever it is called in the form f string containing question number, `check_answer` method which checks that user_answer matches the correct answer and return true it does matches else false
+
+5. `ui.py`: it contains entire window setup including `label`,`canvas` and `button`, it calls `check_question` from quizz_brain and passes true or false as string based on the button clicked
